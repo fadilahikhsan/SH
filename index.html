@@ -94,14 +94,70 @@
             mask-composite: exclude;
         }
         
-        .section-content {
-            display: none;
-            animation: fadeIn 0.5s ease-in-out;
-        }
-        
-        .section-content.active {
-            display: block;
-        }
+    .section-content {
+    display: none;
+    animation: fadeIn 0.5s ease-in-out;
+
+    min-height: 100vh;
+    padding: 80px 20px;
+}
+
+.section-content.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* BACKGROUND */
+#home {
+    background: 
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)),
+        url('bg1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#skills {
+    background: 
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)),
+        url('bg2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#portfolio {
+    background: 
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)),
+        url('bg3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#experience {
+    background: 
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)),
+        url('bg4.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#education {
+    background: 
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)),
+        url('bg5.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#contact {
+    background: 
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)),
+        url('bg6.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
         
         .nav-link {
             position: relative;
